@@ -1,30 +1,29 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "Customized Terminal with nachat compilation",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "chromium.png",
-  "name": "kasmweb/chromium:develop",
-  "run_config": {
-    "hostname": "kasm"
-  },
-  "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+  "image_src": "nchat.png",
+  "name": "chriswilson2005/nchat-workspace:1.15.0",
+  "friendly_name": "Terminal-nchat",
+  "cores": 2,
+  "memory": 4096,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": { 
+    "hostname": "kasm-nchat",  
+    "environment": {
+      "TERMINAL_ARGS": "--fullscreen --hide-borders --hide-menubar --zoom=-1 --hide-scrollbar"
     }
   },
   "categories": [
-    "Browser"
+    "Terminal",
+    "Productivity"
   ],
-  "friendly_name": "Chromium",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
-    "1.13.x",
+    "1.15.x",
     "1.14.x"
   ],
-  "uncompressed_size_mb": 2170
+  "uncompressed_size_mb": 1720
 }
