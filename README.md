@@ -8,7 +8,7 @@
 
 <p align="center">This repository delivers a front end website and repository listing to install nchat in a terminal docker container on your kasm install.</p>
 
-![image](https://user-images.githubusercontent.com/5698566/230064289-9e8967a1-4ff9-43f3-8495-f4170c23a80f.png)
+![image](https://github.com/chriswilson2020/kasm-workspaces-nchat/blob/abf0e3c4e360106a31ac9809c08043ec311008c7/kasm%20registry.png)
 
 ## Contents
 
