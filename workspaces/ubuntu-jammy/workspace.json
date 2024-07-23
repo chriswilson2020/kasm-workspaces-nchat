@@ -1,7 +1,7 @@
 {
   "description": "Customized Ubuntu-Jammy from Record Techs workspce compiled on arm64",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "nchat.png",
+  "image_src": "ubuntu-jammy.png",
   "name": "chriswilson2005/ubuntu-jammy:arm64",
   "friendly_name": "Ubuntu-Jammy ARM compile",
   "cores": 2,
